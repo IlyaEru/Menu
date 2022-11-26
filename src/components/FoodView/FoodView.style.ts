@@ -10,13 +10,13 @@ export const StyledFoodView = styled.article`
     grid-template-rows: auto 1fr;
     justify-self: center;
     gap: 0 1.25rem;
+    max-width: 35rem;
   }
   @media (min-width: ${({ theme }) => theme.breakpoints.large}) {
     grid-template-columns: 4fr 5fr;
     grid-template-rows: auto 1fr;
     justify-self: center;
     gap: 0 1.25rem;
-    max-width: 35rem;
   }
 `;
 
