@@ -148,13 +148,13 @@ h4 {
     grid-template-rows: auto 1fr;
     justify-self: center;
     gap: 0 1.25rem;
+    max-width: 35rem;
   }
   @media (min-width: ${({theme:e})=>e.breakpoints.large}) {
     grid-template-columns: 4fr 5fr;
     grid-template-rows: auto 1fr;
     justify-self: center;
     gap: 0 1.25rem;
-    max-width: 35rem;
   }
 `,Ah=Me.img`
   width: 100%;
